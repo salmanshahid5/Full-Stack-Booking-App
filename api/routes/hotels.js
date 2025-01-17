@@ -25,4 +25,7 @@ router.get("/find/:id", getHotel);
 // GET ALL: Public access to retrieve all hotels
 router.get("/", getHotels);
 
+router.get("/countByCity", countByCity);
+router.get("/countByType", countByType);
+
 export default router;
